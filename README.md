@@ -19,3 +19,5 @@ int main() {
 ## TO BE ADDED:
 String to enum conversion.
 Nicer (and more efficient) constexpr code for generating the enum's string views.
+Enum class support with inheritance.
+Support for enums with explicitly defined values (and negative values). For example: `Value1 = -1, Value2 = 5`.
